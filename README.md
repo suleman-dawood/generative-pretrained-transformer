@@ -22,11 +22,7 @@ This repository contains code for training and fine-tuning a Bigram-based langua
    git clone https://github.com/your-username/bigram-language-model.git
    cd bigram-language-model
 
-    Install dependencies:
-
-    pip install -r requirements.txt
-
-    Prepare your dataset for pretraining and fine-tuning.
+install any dependancies
 
 Training
 Pretraining
