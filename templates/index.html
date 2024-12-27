@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Output UI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <h1 class="page-title">Generate Output UI</h1>
+
+        <!-- Length Input and Generate Button -->
+        <div class="input-container">
+            <label for="length-input" class="input-label">Enter length: </label>
+            <input type="number" id="length-input" class="input-field" placeholder="Enter a number" />
+            <button id="generate-button" class="generate-button">Generate</button>
+        </div>
+
+        <!-- Output Textarea -->
+        <textarea id="output-text" class="output-textarea" readonly></textarea>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
