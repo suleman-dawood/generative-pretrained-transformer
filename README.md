@@ -33,28 +33,12 @@ Pretraining
 
 Run the following command to start pretraining:
 
-python pretrain.py
+python downloader.py
+python tokeise.py
+python main.py
+python ui.py
 
-Fine-tuning
-
-After pretraining, fine-tune the model using:
-
-python finetune.py
-
-Text Generation
-
-To generate text based on a trained model, run:
-
-python generate_text.py
-
-This will generate text and save it to output.txt.
-Files
-
-    pretrain.py: Script to handle pretraining.
-    finetune.py: Script for fine-tuning the model.
-    generate_text.py: Script to generate text from the trained model.
-    train.py: Contains training logic.
-    model.py: Defines the architecture of the Bigram model.
+This will generate text and save it to output.txt and launch on a local server.
 
 License
 
